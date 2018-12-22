@@ -4,6 +4,7 @@
   vertical-align: bottom;
   width: 100%;
   min-height: 100vh;
+  background: #141c2b;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -119,4 +120,8 @@
         color: $sec;
       }
   }
+}
+
+img {
+    max-width: 40%;
 }
