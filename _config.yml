@@ -1,7 +1,7 @@
 # Site settings
 title: Pizza de Dados
 description: O primeiro e o mais querido podcast sobre ciência de dados no Brasil
-baseurl: "/particle" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pizzadedados.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
