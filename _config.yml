@@ -24,7 +24,7 @@ gust_photo: "https://i.imgur.com/jK2yR0q.jpg"
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-106178084-2"
 
 exclude: ['package.json', 'src' , 'node_modules']
 plugins_dir:
