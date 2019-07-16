@@ -26,6 +26,8 @@ gust_photo: "https://i.imgur.com/jK2yR0q.jpg"
 google-analytics:
   id: "UA-106178084-2"
 
+include: ['robots.txt']
+
 exclude: ['package.json', 'src' , 'node_modules']
 plugins_dir:
   - jekyll-redirect-from
