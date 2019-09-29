@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+{% if page.language %}
+<html lang="{{ page.language }}">
+{% else %}
+<html lang="pt-br">
+{% endif %}
   {% include head.html %}
   <body>
       {% include header.html %}
