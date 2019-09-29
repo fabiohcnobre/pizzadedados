@@ -13,6 +13,7 @@
         <a aria-label="Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
+        {% if page.language == "pt-br" %}
         <a class="link" href="#about" data-scroll>Sobre</a>
         <a class="link" href="#pizzaiolos" data-scroll>Quem somos</a>
 <!--
@@ -22,10 +23,18 @@
         <a class="link" target="_blank" href="https://podcast.pizzadedados.com/">Episódios</a>
         <a class="link" href="#vemcomagente" data-scroll>Assine</a>
         <a class="link" href="#vemcomagente" data-scroll>Apoie</a>
-        {% if page.language == "pt-br" %}
         <a class="link" href="/en" >English</a>
         {% endif %}
         {% if page.language == "en" %}
+        <a class="link" href="#about" data-scroll>About</a>
+        <a class="link" href="#pizzaiolos" data-scroll>Who we are</a>
+<!--
+        <a class="link" href="#projects" data-scroll>Projects</a>
+-->
+        <a class="link" target="_blank" href="https://medium.com/pizzadedados">Blog</a>
+        <a class="link" target="_blank" href="https://podcast.pizzadedados.com/">Episodes</a>
+        <a class="link" href="#vemcomagente" data-scroll>Subscribe</a>
+        <a class="link" href="#vemcomagente" data-scroll>Support</a>
         <a class="link" href="/" >Português</a>
         {% endif %}
       </div>
