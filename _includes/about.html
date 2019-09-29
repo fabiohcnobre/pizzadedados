@@ -1,8 +1,9 @@
+{% if page.language == "pt-br" %}
  <div class="user-details">
   <h1> Sobre o Pizza de Dados </h1>
   <p> O Pizza de Dados é uma iniciativa de 3 apaixonados por ciência de dados que viviam discutindo assuntos, links e conselhos de carreira. A vontade de aprender mais e compartilhar conhecimento era comum a todos e a ausência de um canal em português para tratar desses temas, levou à ideia de formar o pizza de dados.</p>
 
-  <p> O nome é uma espécie de “homenagem” ao repositório datascience.pizza, que se tornou em pouco tempo uma referência de material de estudos de ciência de dados em português.</p>
+  <p> O nome é uma espécie de “homenagem” ao repositório <a href="https://guia.datascience.pizza/">datascience.pizza</a>, que se tornou em pouco tempo uma referência de material de estudos de ciência de dados em português.</p>
 
   <p> Por ser algo feito de forma simples e leve por pessoas que normalmente se enfiam em muitos projetos ao mesmo tempo, o Pizza de Dados tem 3 regras básicas:</p>
 
@@ -14,3 +15,21 @@
 
   <p> Esperamos que você se divirta, nos dê feedback e aprenda um pouquinho! </p>
 </div>
+{%else%}
+ <div class="user-details">
+  <h1> About Pizza de Dados </h1>
+  <p>Pizza de Dados is an initiative of 3 data science enthusiasts who used to discuss career, links, and advice. The desire to learn more and share knowledge was common to all and the absence of a Portuguese channel to address these issues led to the idea of forming the Pizza de Dados.</p>
+
+  <p> The name is a kind of “tribute” to the <a href="https://guia.datascience.pizza/">datascience.pizza</a> repository, which soon became a reference for data science studies in Portuguese.</p>
+
+  <p> Made with ease by people with many projects, Pizza de dados have three primary rules:</p>
+
+<ol>
+    <li>Let's do it while it's fun for everyone;</li>
+    <li>We will not do it by pressure (dates, publication, frequency);</li>
+    <li>Not all original pizzaiolos should be in one episode.</li>
+</ol>
+
+  <p> We hope you have fun, give us feedback, and learn a bit! </p>
+</div>
+{% endif %}
