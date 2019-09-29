@@ -1,3 +1,4 @@
+{% if page.language == "pt-br" %}
 <div class="user-details">
   <h1> Pizzaiolos </h1>
 <p>Conheça um pouco mais das vozes que você está escutando.</p>
@@ -22,3 +23,29 @@
       <center><a class="project-link" href="https://gusrabbit.com">Site</a></center>
     </div>
 </div>
+{% else %}
+<div class="user-details">
+  <h1> Pizzaiolos </h1>
+<p>Conheça um pouco mais das vozes que você está escutando.</p>
+</div>
+  <div class="user">
+    <div class="tech">
+      <h2>Leticia Portella</h2>
+    <img alt="foto da Lele Portella" src="{{ site.lele_photo }}" />
+    <p>Letícia é uma oceanógrafa apaixonada por programação que descobriu como unir sua formação e sua paixão em uma única área: ciência de dados. Gosta de escrever textos técnicos, conhecer novos lugares e coleciona teorias sobre as Crônicas de Gelo e Fogo em seu tempo livre.</p>
+      <center><a class="project-link" href="https://leportella.com">Site</a></center>
+    </div>
+    <div class="tech">
+      <h2>Jessica Temporal</h2>
+      <img alt="foto da Jess Temporal" src="{{ site.jess_photo }}" />
+      <p>Jessica se apaixonou pela ciência de dados analisando dados biológicos ainda na faculdade. Mudou totalmente o foco de suas análises ao se envolver com a Operação Serenata de Amor. Hoje leva seus cachos e seu amor por dados para compor o time de ciência de dados na TV Globo.</p>
+      <center><a class="project-link" href="https://jtemporal.com">Site</a><center>
+    </div>
+    <div class="tech">
+      <h2>Gustavo Coelho</h2>
+      <img alt="foto da Gust Coelho" src="{{ site.gust_photo }}" />
+      <p>Gustavo é líder do time de Ciência de Dados da Rocketmat, aplicando inteligência artificial em RH. Apesar de ter conquistado seu sonho de criança, na verdade ele é formado em economia :P. Ele é conhecido como o alívio cômico do podcast e ganhou o título de muso do Pizza.</p>
+      <center><a class="project-link" href="https://gusrabbit.com">Site</a></center>
+    </div>
+</div>
+{% endif %}
