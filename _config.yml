@@ -24,7 +24,7 @@ gust_photo: "https://i.imgur.com/jK2yR0q.jpg"
 
 # Google-analytics
 google-analytics:
-  id: "UA-106178084-2"
+  id: "G-NMXLYV8B0S"
 
 include: ['robots.txt']
 
